@@ -95,11 +95,55 @@ body{
     
 }
 
- /* <!-- Heighlight & Copa Cup Section end  --> */
+ /*<!-- Heighlight & Copa Cup Section end  --> */
+
+/*  favourite-club-section start*/
+.club-area{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-bottom:20px;
+}
+.club-area h1{
+    font-size: 40px;
+
+}
+#club{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+} 
+.grid-container img{
+    width:150px;
+    height: 150px;
+   
+    
+}
+.partial-color{
+    color: #E02C6D;
+    
+}
+
+.fav-club{
+    border: 5px solid orange;
+    padding:20px;
+    background-color: rgba(179, 29, 84, 0.26);
+    border-radius: 10px;
+}
+.fav-club:hover{
+    background-color: aqua;
+}
+/* ----- favourite-club-section end-------*/
+
+
+
  /* ---------------------------- */
  /* <!---↓-↓-↓-Footer Section-↓-↓-↓---> */
  .footer-wrapper{
-     background-color:rgba(203, 214, 214, 0.445)
+     background-color:rgba(182, 206, 206, 0.445)
  }
  .footer-section{
     display: flex;
@@ -123,6 +167,10 @@ body{
     border-radius: 50%;
     color: #969BAB;
     margin: 0 7px;
+    font-size: 30px;
+}
+.icons:hover{
+    background-color: #E02C6D;
 }
 .copyright p{
     font-size: 18px;
@@ -173,6 +221,10 @@ body{
     grid-template-columns: repeat(1,1fr);
     width:90%;
    }
+   .grid-container{
+       grid-template-columns: repeat(1,1fr);
+   }
+
    .footer-section img{
        flex-direction: column;
        width: 90%;   
