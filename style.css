@@ -1,0 +1,184 @@
+/* common-style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+/* top-info */
+.header{
+    background: #2D25A0;
+    width: 100%;
+    
+    /* height: 677px; */
+}
+.top-info{
+    /* width: 1440px; */
+    display: flex;
+    margin-bottom: 70px;
+}
+.titel-info{
+    margin-left: 156px;
+    margin-top: 207px;
+}
+
+    
+.titel-info h1{
+    color: 
+    #FFFFFF;
+    font-weight: bold;
+    font-size: 64px;
+}
+.top-banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;   
+}
+/* Player section */
+.player-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-gap: 30px;
+    width:70%;
+}
+.player-info{
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    padding: 15px;
+    
+}
+.player-info img{
+    width: 100%;
+    height: 256px;      
+}
+/* <!-- Heighlight & Copa Cup Section  --> */
+.high-cupa{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 70px;
+   justify-content: center;
+   align-items: center;
+}
+.half-width{
+    width: 50%;
+    padding:10%;
+}
+.half-width h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+.half-width p{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.half-width-img img{
+    Width:60%;
+}
+.link-button{
+    text-decoration: none;
+   background-color: #E02C6D;
+    padding: 10px 24px;
+    color: seashell;
+    border-radius: 3px;
+    
+}
+.link-button:hover{
+    background-color: aqua;
+    color: black;
+    
+}
+
+ /* <!-- Heighlight & Copa Cup Section end  --> */
+ /* ---------------------------- */
+ /* <!---↓-↓-↓-Footer Section-↓-↓-↓---> */
+ .footer-wrapper{
+     background-color:rgba(203, 214, 214, 0.445)
+ }
+ .footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+.footer-img img{
+    width: 483px;
+}
+.social-icons{
+    margin: 20px 0;
+}
+.icons{
+    background-color: #E7E7E8;
+    padding: 8.5px;
+    border-radius: 50%;
+    color: #969BAB;
+    margin: 0 7px;
+}
+.copyright p{
+    font-size: 18px;
+    color: #000000;
+}
+/* end-css-footer section *
+/* responsive media-quires */
+/* for mobile device */
+@media  only screen and (max-width:688px) {
+.top-info{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+}
+.top-banner img{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+   
+}
+.titel-info {
+    margin-left:10%;
+    margin-top: 0px;
+
+}
+.header{
+   background-color: #2D25A0;
+}
+
+    
+   .player-section{
+       width:100%;
+   }
+   .high-cupa{
+    width:100%;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .half-width{
+    width: 90%;
+    margin:10px;
+    padding: 0;
+}
+.half-width-img img{
+    width: 90%;
+}
+   .players{
+    grid-template-columns: repeat(1,1fr);
+    width:90%;
+   }
+   .footer-section img{
+       flex-direction: column;
+       width: 90%;   
+   }
+}
+/* ----------------
+end all 
+----------------*/
+    
