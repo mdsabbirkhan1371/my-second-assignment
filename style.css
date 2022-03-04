@@ -190,6 +190,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .top-banner img{
     width: 80%;
     height: 40%;
@@ -225,6 +226,7 @@ body{
    .players{
     grid-template-columns: repeat(1,1fr);
     width:90%;
+    overflow: hidden;
    }
    .grid-container{
        grid-template-columns: repeat(1,1fr);
